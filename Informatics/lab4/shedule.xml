@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<week>
+	<thursday>
+		<firstclass>
+			<time>11:40-13:10</time>
+			<address>ul. Lomonosova, d. 9, lit. M</address>
+			<classroom>1329</classroom>
+			<subject>Mathematics (practice)</subject>
+			<teacher>Kholodova Svetlana Evgenievna</teacher>
+			<format>Internal and on distance</format>
+		</firstclass>
+		<secondclass>
+			<time>13:30-15:00</time>
+			<address>ul. Lomonosova, d. 9, lit. M</address>
+			<classroom>1222</classroom>
+			<subject>Mathematics (lecture)</subject>
+			<teacher>Kholodova Svetlana Evgenievna</teacher>
+			<format>Internal and on distance</format>
+		</secondclass>
+	</thursday>
+</week>
