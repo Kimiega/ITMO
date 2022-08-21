@@ -46,30 +46,30 @@
 
 **Описание хранимых в коллекции классов:**
 
-`public class City {
-    private long id; //Значение поля должно быть больше 0, Значение этого поля должно быть уникальным, Значение этого поля должно генерироваться автоматически
-    private String name; //Поле не может быть null, Строка не может быть пустой
-    private Coordinates coordinates; //Поле не может быть null
-    private java.time.ZonedDateTime creationDate; //Поле не может быть null, Значение этого поля должно генерироваться автоматически
-    private double area; //Значение поля должно быть больше 0
-    private Integer population; //Значение поля должно быть больше 0, Поле не может быть null
-    private long metersAboveSeaLevel;
-    private double timezone; //Значение поля должно быть больше -13, Максимальное значение поля: 15
-    private Double agglomeration;
-    private Climate climate; //Поле может быть null
-    private Human governor; //Поле может быть null
-}
-public class Coordinates {
-    private Double x; //Поле не может быть null
-    private long y; //Максимальное значение поля: 960
-}
-public class Human {
-    private String name; //Поле не может быть null, Строка не может быть пустой
-    private Integer age; //Значение поля должно быть больше 0
-    private java.util.Date birthday;
-}
-public enum Climate {
-    TROPICAL_SAVANNA,
-    HUMIDSUBTROPICAL,
-    OCEANIC;
-}`
+`public class City {`
+    `private long id; //Значение поля должно быть больше 0, Значение этого поля должно быть уникальным, Значение этого поля должно генерироваться автоматически`
+    `private String name; //Поле не может быть null, Строка не может быть пустой`
+    `private Coordinates coordinates; //Поле не может быть null`
+    `private java.time.ZonedDateTime creationDate; //Поле не может быть null, Значение этого поля должно генерироваться автоматически`
+    `private double area; //Значение поля должно быть больше 0`
+    `private Integer population; //Значение поля должно быть больше 0, Поле не может быть null`
+    `private long metersAboveSeaLevel;`
+    `private double timezone; //Значение поля должно быть больше -13, Максимальное значение поля: 15`
+    `private Double agglomeration;`
+    `private Climate climate; //Поле может быть null`
+    `private Human governor; //Поле может быть null`
+`}`
+`public class Coordinates {`
+    `private Double x; //Поле не может быть null`
+    `private long y; //Максимальное значение поля: 960`
+`}`
+`public class Human {`
+    `private String name; //Поле не может быть null, Строка не может быть пустой`
+    `private Integer age; //Значение поля должно быть больше 0`
+    `private java.util.Date birthday;`
+`}`
+`public enum Climate {`
+    `TROPICAL_SAVANNA,`
+    `HUMIDSUBTROPICAL,`
+    `OCEANIC;`
+`}`
